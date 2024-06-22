@@ -11,7 +11,7 @@ Subject:{subject}\n
 {body}
 
 """
-
+print("Connecting...")
 HOST = "smtp.gmail.com"
 PORT = 587
 smtp = smtplib.SMTP(HOST, PORT)
